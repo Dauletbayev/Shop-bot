@@ -4,12 +4,12 @@ import shop_buttons as bt
 from geopy import Nominatim
 
 # Создать объект бота
-bot = telebot.TeleBot('7161028044:AAFMyS8dQ_jMHPFEbbnm0AN70p6EbJCWOkI')
+bot = telebot.TeleBot('TOKEN')
 # Использование карты
 geolocator = Nominatim(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                                   'Chrome/121.0.0.0 Safari/537.36')
 # ID админа
-admin_id = 927775525
+admin_id = telegram_id
 # Временные данные
 users = {}
 
